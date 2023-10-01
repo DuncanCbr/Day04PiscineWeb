@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <script
+      src="https://kit.fontawesome.com/9b63981527.js"
+      crossorigin="anonymous"
+    ></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Duncan's portfolio</title>
+  </head>
+  <body>
+    <!-- Première page -->
+    <!-- boite Texte -->
+    <div class="premierePage" id="premierePage">
+      <div class="PPBoxText" id="PPBoxText">
+        <h1>Bienvenu(e) !</h1>
+        <p>
+          Je m'appelle Duncan Carbonnier, j'ai 25ans. Actuellement Etudiant à
+          Epitech je recherche une alternance pour janvier 2024.
+        </p>
+        <p>Merci d'avoir pris le temps de consulter mon Portfolio !</p>
+      </div>
+      <!-- boite img -->
+      <div class="PPBoxImg" id="PPBoxImg">
+        <div class="PPContainerImg">
+          <img src="./images/photoDeMoi.png" class="PPSizeImg" alt="" />
+        </div>
+      </div>
+    </div>
+
+    <!-- deuxième page -->
+    <div class="deuxiemePage displayFalse" id="deuxiemePage">
+      <div class="placementHeader">
+        <nav>
+          <p id="myJourney" class="myJourney">Mon parcours</p>
+          <p id="skills" class="skills">Mes compétences</p>
+          <p id="projects" class="projects">Mes projets</p>
+        </nav>
+        <div class="barre"></div>
+      </div>
+      <div class="mainContainer">
+        <div class="placementMainContainer" id="mainContainer">
+          <div class="containerProject">
+            <h2>Mes projets</h2>
+            <div class="projectDisplay">
+              <div class="sizeChevron" id="previousSlide"><i class="fa-solid fa-chevron-left"></i></div>
+              <div class="imgContainerProject">
+                <a href="https://duncancbr.github.io/CarbonnierDuncan_02_08012021/"><img src="./images/reservia.png" class="imgProject imgProjectDisplay"alt="Projet Réservia" id="reservia" /></a>
+                <a href="https://duncancbr.github.io/CarbonnierDuncan_3_07052021/"><img src="./images/ohmyfood.png" class="imgProject" alt="" id="ohmyfood"></a>
+              </div>
+              <div class="sizeChevron">
+                <i class="fa-solid fa-chevron-right" id="nextSlide"></i>
+              </div>
+            </div>
+            <div class="dotProjectDisplay">
+              <i class="fa-solid fa-circle colorDot greenDot" id="reserviaDot" l></i>
+              <i class="fa-solid fa-circle colorDot" id="ohmyfoodDot"></i>
+            </div>
+            </div>
+
+
+        </div>
+      </div>
+      <div class="contact">
+        <a href="https://www.linkedin.com/in/duncan-carbonnier/"
+          ><i class="fa-brands fa-linkedin"></i
+        ></a>
+        <a href="https://github.com/DuncanCbr"
+          ><i class="fa-brands fa-github"></i
+        ></a>
+        <div>
+          carbonnierduncan@gmail.com
+        </div>
+        <div>
+          06.61.93.51.47
+        </div>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
